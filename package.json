@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./server.js",
     "test": "./node_modules/typescript/bin/tsc index.ts",
-    "build": "tsc && serve ./"
+    "build": "tsc"
   },
   "devDependencies": {
     "serve": "^1.4.0",
